@@ -6,7 +6,7 @@
 
 # Interface: PaginatedResponse\<T\>
 
-Defined in: [core/types/index.ts:30](https://github.com/mbates/stripe/blob/698c522e9256b4bd044155c04123d6d3b30db7e4/src/core/types/index.ts#L30)
+Defined in: [core/types/index.ts:30](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/core/types/index.ts#L30)
 
 Common paginated response
 
@@ -22,7 +22,7 @@ Common paginated response
 
 > **data**: `T`[]
 
-Defined in: [core/types/index.ts:31](https://github.com/mbates/stripe/blob/698c522e9256b4bd044155c04123d6d3b30db7e4/src/core/types/index.ts#L31)
+Defined in: [core/types/index.ts:31](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/core/types/index.ts#L31)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [core/types/index.ts:31](https://github.com/mbates/stripe/blob/698c5
 
 > **hasMore**: `boolean`
 
-Defined in: [core/types/index.ts:33](https://github.com/mbates/stripe/blob/698c522e9256b4bd044155c04123d6d3b30db7e4/src/core/types/index.ts#L33)
+Defined in: [core/types/index.ts:33](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/core/types/index.ts#L33)
 
 Whether more records are available
 
@@ -40,6 +40,6 @@ Whether more records are available
 
 > `optional` **nextCursor?**: `string`
 
-Defined in: [core/types/index.ts:35](https://github.com/mbates/stripe/blob/698c522e9256b4bd044155c04123d6d3b30db7e4/src/core/types/index.ts#L35)
+Defined in: [core/types/index.ts:35](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/core/types/index.ts#L35)
 
 Cursor to pass as `startingAfter` for the next page

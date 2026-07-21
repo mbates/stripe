@@ -6,7 +6,7 @@
 
 # Interface: Money
 
-Defined in: [core/utils.ts:7](https://github.com/mbates/stripe/blob/698c522e9256b4bd044155c04123d6d3b30db7e4/src/core/utils.ts#L7)
+Defined in: [core/utils.ts:6](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/core/utils.ts#L6)
 
 Money representation
 
@@ -16,7 +16,7 @@ Money representation
 
 > **amount**: `number`
 
-Defined in: [core/utils.ts:9](https://github.com/mbates/stripe/blob/698c522e9256b4bd044155c04123d6d3b30db7e4/src/core/utils.ts#L9)
+Defined in: [core/utils.ts:8](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/core/utils.ts#L8)
 
 Amount in the smallest currency unit (e.g. cents)
 
@@ -26,4 +26,4 @@ Amount in the smallest currency unit (e.g. cents)
 
 > **currency**: [`CurrencyCode`](../type-aliases/CurrencyCode.md)
 
-Defined in: [core/utils.ts:10](https://github.com/mbates/stripe/blob/698c522e9256b4bd044155c04123d6d3b30db7e4/src/core/utils.ts#L10)
+Defined in: [core/utils.ts:9](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/core/utils.ts#L9)

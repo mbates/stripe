@@ -6,7 +6,7 @@
 
 # Interface: WebhookVerificationResult
 
-Defined in: [server/types.ts:71](https://github.com/mbates/stripe/blob/698c522e9256b4bd044155c04123d6d3b30db7e4/src/server/types.ts#L71)
+Defined in: [server/types.ts:83](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/server/types.ts#L83)
 
 Result of webhook signature verification.
 
@@ -16,7 +16,7 @@ Result of webhook signature verification.
 
 > `optional` **error?**: `string`
 
-Defined in: [server/types.ts:75](https://github.com/mbates/stripe/blob/698c522e9256b4bd044155c04123d6d3b30db7e4/src/server/types.ts#L75)
+Defined in: [server/types.ts:87](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/server/types.ts#L87)
 
 Error message if invalid
 
@@ -26,6 +26,6 @@ Error message if invalid
 
 > **valid**: `boolean`
 
-Defined in: [server/types.ts:73](https://github.com/mbates/stripe/blob/698c522e9256b4bd044155c04123d6d3b30db7e4/src/server/types.ts#L73)
+Defined in: [server/types.ts:85](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/server/types.ts#L85)
 
 Whether the signature is valid

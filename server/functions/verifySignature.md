@@ -6,14 +6,15 @@
 
 # Function: verifySignature()
 
-> **verifySignature**(`rawBody`, `signature`, `signingSecret`, `options?`): [`WebhookVerificationResult`](../interfaces/WebhookVerificationResult.md)
+> **verifySignature**(`rawBody`, `signature`, `signingSecret`, `options?`): `Promise`\<[`WebhookVerificationResult`](../interfaces/WebhookVerificationResult.md)\>
 
-Defined in: [server/webhook.ts:80](https://github.com/mbates/stripe/blob/698c522e9256b4bd044155c04123d6d3b30db7e4/src/server/webhook.ts#L80)
+Defined in: [server/webhook.ts:105](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/server/webhook.ts#L105)
 
 Verify a Stripe webhook signature.
 
 Reimplements Stripe's signing scheme (HMAC-SHA256 over `${timestamp}.${body}`)
-so verification needs neither a Stripe SDK instance nor a network call.
+using WebCrypto, so verification needs neither a Stripe SDK instance, a network
+call, nor any Node built-in — it runs on Node 22+, Deno, Bun, and Workers.
 
 ## Parameters
 
@@ -43,7 +44,7 @@ Verification options (timestamp tolerance)
 
 ## Returns
 
-[`WebhookVerificationResult`](../interfaces/WebhookVerificationResult.md)
+`Promise`\<[`WebhookVerificationResult`](../interfaces/WebhookVerificationResult.md)\>
 
 Verification result with a `valid` flag and optional error
 
@@ -52,7 +53,7 @@ Verification result with a `valid` flag and optional error
 ```typescript
 import { verifySignature } from '@bates-solutions/stripe/server';
 
-const result = verifySignature(
+const result = await verifySignature(
   rawBody,
   req.headers['stripe-signature'],
   process.env.STRIPE_WEBHOOK_SECRET!

@@ -6,9 +6,9 @@
 
 # Function: parseAndVerifyWebhook()
 
-> **parseAndVerifyWebhook**(`rawBody`, `signature`, `signingSecret`, `options?`): [`ParsedWebhookRequest`](../interfaces/ParsedWebhookRequest.md)
+> **parseAndVerifyWebhook**(`rawBody`, `signature`, `signingSecret`, `options?`): `Promise`\<[`ParsedWebhookRequest`](../interfaces/ParsedWebhookRequest.md)\>
 
-Defined in: [server/webhook.ts:160](https://github.com/mbates/stripe/blob/698c522e9256b4bd044155c04123d6d3b30db7e4/src/server/webhook.ts#L160)
+Defined in: [server/webhook.ts:185](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/server/webhook.ts#L185)
 
 Verify and parse a webhook request.
 
@@ -40,7 +40,7 @@ Verification options
 
 ## Returns
 
-[`ParsedWebhookRequest`](../interfaces/ParsedWebhookRequest.md)
+`Promise`\<[`ParsedWebhookRequest`](../interfaces/ParsedWebhookRequest.md)\>
 
 The parsed and verified webhook request
 

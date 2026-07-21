@@ -8,7 +8,7 @@
 
 > **createNextWebhookHandler**(`config`): (`request`) => `Promise`\<`Response`\>
 
-Defined in: [server/middleware/nextjs.ts:58](https://github.com/mbates/stripe/blob/698c522e9256b4bd044155c04123d6d3b30db7e4/src/server/middleware/nextjs.ts#L58)
+Defined in: [server/middleware/nextjs.ts:59](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/server/middleware/nextjs.ts#L59)
 
 Create a Next.js App Router webhook handler.
 
