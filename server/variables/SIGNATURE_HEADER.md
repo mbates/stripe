@@ -8,6 +8,6 @@
 
 > `const` **SIGNATURE\_HEADER**: `"stripe-signature"` = `'stripe-signature'`
 
-Defined in: [server/webhook.ts:12](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/server/webhook.ts#L12)
+Defined in: [server/webhook.ts:15](https://github.com/mbates/stripe/blob/15e917425b05c6cb89295d7a886146a00e971266/src/server/webhook.ts#L15)
 
 Header name carrying the Stripe webhook signature.

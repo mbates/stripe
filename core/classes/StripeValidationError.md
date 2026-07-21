@@ -6,7 +6,7 @@
 
 # Class: StripeValidationError
 
-Defined in: [core/errors.ts:107](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/core/errors.ts#L107)
+Defined in: [core/errors.ts:107](https://github.com/mbates/stripe/blob/15e917425b05c6cb89295d7a886146a00e971266/src/core/errors.ts#L107)
 
 Validation errors for input this wrapper checks before calling Stripe
 
@@ -20,7 +20,7 @@ Validation errors for input this wrapper checks before calling Stripe
 
 > **new StripeValidationError**(`message`, `field?`): `StripeValidationError`
 
-Defined in: [core/errors.ts:110](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/core/errors.ts#L110)
+Defined in: [core/errors.ts:110](https://github.com/mbates/stripe/blob/15e917425b05c6cb89295d7a886146a00e971266/src/core/errors.ts#L110)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [core/errors.ts:110](https://github.com/mbates/stripe/blob/d05db190d
 
 > `readonly` **code**: [`StripeErrorCode`](../type-aliases/StripeErrorCode.md)
 
-Defined in: [core/errors.ts:28](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/core/errors.ts#L28)
+Defined in: [core/errors.ts:28](https://github.com/mbates/stripe/blob/15e917425b05c6cb89295d7a886146a00e971266/src/core/errors.ts#L28)
 
 #### Inherited from
 
@@ -58,7 +58,7 @@ Defined in: [core/errors.ts:28](https://github.com/mbates/stripe/blob/d05db190d1
 
 > `readonly` `optional` **details?**: `unknown`
 
-Defined in: [core/errors.ts:30](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/core/errors.ts#L30)
+Defined in: [core/errors.ts:30](https://github.com/mbates/stripe/blob/15e917425b05c6cb89295d7a886146a00e971266/src/core/errors.ts#L30)
 
 #### Inherited from
 
@@ -70,7 +70,7 @@ Defined in: [core/errors.ts:30](https://github.com/mbates/stripe/blob/d05db190d1
 
 > `readonly` `optional` **field?**: `string`
 
-Defined in: [core/errors.ts:108](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/core/errors.ts#L108)
+Defined in: [core/errors.ts:108](https://github.com/mbates/stripe/blob/15e917425b05c6cb89295d7a886146a00e971266/src/core/errors.ts#L108)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [core/errors.ts:108](https://github.com/mbates/stripe/blob/d05db190d
 
 > `readonly` `optional` **statusCode?**: `number`
 
-Defined in: [core/errors.ts:29](https://github.com/mbates/stripe/blob/d05db190d1acd9c7f09c8b66474d38e19ceee172/src/core/errors.ts#L29)
+Defined in: [core/errors.ts:29](https://github.com/mbates/stripe/blob/15e917425b05c6cb89295d7a886146a00e971266/src/core/errors.ts#L29)
 
 #### Inherited from
 
