@@ -1,4 +1,4 @@
-[**@bates-solutions/stripe API Reference v0.0.0**](../../README.md)
+[**@bates-solutions/stripe API Reference v1.0.0**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ListProductsOptions
 
-Defined in: [core/services/products.service.ts:13](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/core/services/products.service.ts#L13)
+Defined in: [core/services/products.service.ts:13](https://github.com/mbates/stripe/blob/5209173c3c3431432a88ab1fd7f64106c9d10472/src/core/services/products.service.ts#L13)
 
 Options for listing products
 
@@ -16,7 +16,7 @@ Options for listing products
 
 > `optional` **active?**: `boolean`
 
-Defined in: [core/services/products.service.ts:15](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/core/services/products.service.ts#L15)
+Defined in: [core/services/products.service.ts:15](https://github.com/mbates/stripe/blob/5209173c3c3431432a88ab1fd7f64106c9d10472/src/core/services/products.service.ts#L15)
 
 Only return active (or inactive) products
 
@@ -26,7 +26,7 @@ Only return active (or inactive) products
 
 > `optional` **limit?**: `number`
 
-Defined in: [core/services/products.service.ts:16](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/core/services/products.service.ts#L16)
+Defined in: [core/services/products.service.ts:16](https://github.com/mbates/stripe/blob/5209173c3c3431432a88ab1fd7f64106c9d10472/src/core/services/products.service.ts#L16)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [core/services/products.service.ts:16](https://github.com/mbates/str
 
 > `optional` **startingAfter?**: `string`
 
-Defined in: [core/services/products.service.ts:17](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/core/services/products.service.ts#L17)
+Defined in: [core/services/products.service.ts:17](https://github.com/mbates/stripe/blob/5209173c3c3431432a88ab1fd7f64106c9d10472/src/core/services/products.service.ts#L17)

@@ -1,4 +1,4 @@
-[**@bates-solutions/stripe API Reference v0.0.0**](../../README.md)
+[**@bates-solutions/stripe API Reference v1.0.0**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: WebhookConfig
 
-Defined in: [server/types.ts:56](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/server/types.ts#L56)
+Defined in: [server/types.ts:56](https://github.com/mbates/stripe/blob/5209173c3c3431432a88ab1fd7f64106c9d10472/src/server/types.ts#L56)
 
 Configuration for webhook handling.
 
@@ -24,7 +24,7 @@ Configuration for webhook handling.
 
 > **handlers**: [`WebhookHandlers`](../type-aliases/WebhookHandlers.md)
 
-Defined in: [server/types.ts:60](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/server/types.ts#L60)
+Defined in: [server/types.ts:60](https://github.com/mbates/stripe/blob/5209173c3c3431432a88ab1fd7f64106c9d10472/src/server/types.ts#L60)
 
 Event handlers by type
 
@@ -34,7 +34,7 @@ Event handlers by type
 
 > **signingSecret**: `string`
 
-Defined in: [server/types.ts:58](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/server/types.ts#L58)
+Defined in: [server/types.ts:58](https://github.com/mbates/stripe/blob/5209173c3c3431432a88ab1fd7f64106c9d10472/src/server/types.ts#L58)
 
 Stripe webhook signing secret (`whsec_…`)
 
@@ -44,7 +44,7 @@ Stripe webhook signing secret (`whsec_…`)
 
 > `optional` **throwOnInvalidSignature?**: `boolean`
 
-Defined in: [server/types.ts:65](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/server/types.ts#L65)
+Defined in: [server/types.ts:65](https://github.com/mbates/stripe/blob/5209173c3c3431432a88ab1fd7f64106c9d10472/src/server/types.ts#L65)
 
 Whether to treat a signature verification failure as an error.
 
@@ -60,7 +60,7 @@ true
 
 > `optional` **tolerance?**: `number`
 
-Defined in: [server/types.ts:50](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/server/types.ts#L50)
+Defined in: [server/types.ts:50](https://github.com/mbates/stripe/blob/5209173c3c3431432a88ab1fd7f64106c9d10472/src/server/types.ts#L50)
 
 Maximum allowed difference (seconds) between the signature timestamp and
 now. Set to `0` to disable the timestamp check.

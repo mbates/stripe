@@ -1,4 +1,4 @@
-[**@bates-solutions/stripe API Reference v0.0.0**](../../README.md)
+[**@bates-solutions/stripe API Reference v1.0.0**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: ListPricesOptions
 
-Defined in: [core/services/prices.service.ts:13](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/core/services/prices.service.ts#L13)
+Defined in: [core/services/prices.service.ts:13](https://github.com/mbates/stripe/blob/5209173c3c3431432a88ab1fd7f64106c9d10472/src/core/services/prices.service.ts#L13)
 
 Options for listing prices
 
@@ -16,7 +16,7 @@ Options for listing prices
 
 > `optional` **active?**: `boolean`
 
-Defined in: [core/services/prices.service.ts:15](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/core/services/prices.service.ts#L15)
+Defined in: [core/services/prices.service.ts:15](https://github.com/mbates/stripe/blob/5209173c3c3431432a88ab1fd7f64106c9d10472/src/core/services/prices.service.ts#L15)
 
 Only return active (or inactive) prices
 
@@ -26,7 +26,7 @@ Only return active (or inactive) prices
 
 > `optional` **expandProduct?**: `boolean`
 
-Defined in: [core/services/prices.service.ts:25](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/core/services/prices.service.ts#L25)
+Defined in: [core/services/prices.service.ts:25](https://github.com/mbates/stripe/blob/5209173c3c3431432a88ab1fd7f64106c9d10472/src/core/services/prices.service.ts#L25)
 
 Expand the related product inline (`price.product` becomes the full
 `Stripe.Product` instead of an ID). Handy for reading product metadata.
@@ -43,7 +43,7 @@ false
 
 > `optional` **limit?**: `number`
 
-Defined in: [core/services/prices.service.ts:18](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/core/services/prices.service.ts#L18)
+Defined in: [core/services/prices.service.ts:18](https://github.com/mbates/stripe/blob/5209173c3c3431432a88ab1fd7f64106c9d10472/src/core/services/prices.service.ts#L18)
 
 ***
 
@@ -51,7 +51,7 @@ Defined in: [core/services/prices.service.ts:18](https://github.com/mbates/strip
 
 > `optional` **product?**: `string`
 
-Defined in: [core/services/prices.service.ts:17](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/core/services/prices.service.ts#L17)
+Defined in: [core/services/prices.service.ts:17](https://github.com/mbates/stripe/blob/5209173c3c3431432a88ab1fd7f64106c9d10472/src/core/services/prices.service.ts#L17)
 
 Only return prices for this product
 
@@ -61,4 +61,4 @@ Only return prices for this product
 
 > `optional` **startingAfter?**: `string`
 
-Defined in: [core/services/prices.service.ts:19](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/core/services/prices.service.ts#L19)
+Defined in: [core/services/prices.service.ts:19](https://github.com/mbates/stripe/blob/5209173c3c3431432a88ab1fd7f64106c9d10472/src/core/services/prices.service.ts#L19)

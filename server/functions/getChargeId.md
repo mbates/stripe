@@ -1,4 +1,4 @@
-[**@bates-solutions/stripe API Reference v0.0.0**](../../README.md)
+[**@bates-solutions/stripe API Reference v1.0.0**](../../README.md)
 
 ***
 
@@ -8,7 +8,7 @@
 
 > **getChargeId**(`event`): `string` \| `undefined`
 
-Defined in: [server/webhook.ts:304](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/server/webhook.ts#L304)
+Defined in: [server/webhook.ts:306](https://github.com/mbates/stripe/blob/5209173c3c3431432a88ab1fd7f64106c9d10472/src/server/webhook.ts#L306)
 
 Extract the Charge ID from a webhook event, when present.
 
