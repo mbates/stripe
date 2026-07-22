@@ -8,7 +8,7 @@
 
 > **createWebhookProcessor**(`config`): (`rawBody`, `signature`) => `Promise`\<\{ `error?`: `string`; `event?`: `Event`; `success`: `boolean`; \}\>
 
-Defined in: [server/webhook.ts:256](https://github.com/mbates/stripe/blob/15e917425b05c6cb89295d7a886146a00e971266/src/server/webhook.ts#L256)
+Defined in: [server/webhook.ts:256](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/server/webhook.ts#L256)
 
 Create a webhook handler that verifies and processes raw webhook requests.
 

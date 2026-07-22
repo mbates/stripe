@@ -6,7 +6,7 @@
 
 # Class: PricesService
 
-Defined in: [core/services/prices.service.ts:41](https://github.com/mbates/stripe/blob/15e917425b05c6cb89295d7a886146a00e971266/src/core/services/prices.service.ts#L41)
+Defined in: [core/services/prices.service.ts:41](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/core/services/prices.service.ts#L41)
 
 Prices service wrapping Stripe [Prices](https://docs.stripe.com/api/prices).
 
@@ -27,7 +27,7 @@ for (const price of data) {
 
 > **new PricesService**(`client`): `PricesService`
 
-Defined in: [core/services/prices.service.ts:42](https://github.com/mbates/stripe/blob/15e917425b05c6cb89295d7a886146a00e971266/src/core/services/prices.service.ts#L42)
+Defined in: [core/services/prices.service.ts:42](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/core/services/prices.service.ts#L42)
 
 #### Parameters
 
@@ -45,7 +45,7 @@ Defined in: [core/services/prices.service.ts:42](https://github.com/mbates/strip
 
 > **get**(`priceId`, `options?`): `Promise`\<`Price`\>
 
-Defined in: [core/services/prices.service.ts:70](https://github.com/mbates/stripe/blob/15e917425b05c6cb89295d7a886146a00e971266/src/core/services/prices.service.ts#L70)
+Defined in: [core/services/prices.service.ts:70](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/core/services/prices.service.ts#L70)
 
 Retrieve a price by ID, optionally expanding its product.
 
@@ -71,7 +71,7 @@ Retrieve a price by ID, optionally expanding its product.
 
 > **list**(`options?`): `Promise`\<[`PaginatedResponse`](../interfaces/PaginatedResponse.md)\<`Price`\>\>
 
-Defined in: [core/services/prices.service.ts:47](https://github.com/mbates/stripe/blob/15e917425b05c6cb89295d7a886146a00e971266/src/core/services/prices.service.ts#L47)
+Defined in: [core/services/prices.service.ts:47](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/core/services/prices.service.ts#L47)
 
 List prices with cursor-based pagination.
 

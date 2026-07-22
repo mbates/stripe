@@ -8,6 +8,6 @@
 
 > **Product** = `Stripe.Product`
 
-Defined in: [core/services/products.service.ts:8](https://github.com/mbates/stripe/blob/15e917425b05c6cb89295d7a886146a00e971266/src/core/services/products.service.ts#L8)
+Defined in: [core/services/products.service.ts:8](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/core/services/products.service.ts#L8)
 
 A Stripe Product

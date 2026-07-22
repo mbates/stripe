@@ -6,7 +6,7 @@
 
 # Class: BillingPortalService
 
-Defined in: [core/services/billing-portal.service.ts:38](https://github.com/mbates/stripe/blob/15e917425b05c6cb89295d7a886146a00e971266/src/core/services/billing-portal.service.ts#L38)
+Defined in: [core/services/billing-portal.service.ts:38](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/core/services/billing-portal.service.ts#L38)
 
 Billing Portal service wrapping Stripe
 [Billing Portal Sessions](https://docs.stripe.com/api/customer_portal/sessions).
@@ -28,7 +28,7 @@ redirect(session.url);
 
 > **new BillingPortalService**(`client`): `BillingPortalService`
 
-Defined in: [core/services/billing-portal.service.ts:39](https://github.com/mbates/stripe/blob/15e917425b05c6cb89295d7a886146a00e971266/src/core/services/billing-portal.service.ts#L39)
+Defined in: [core/services/billing-portal.service.ts:39](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/core/services/billing-portal.service.ts#L39)
 
 #### Parameters
 
@@ -46,7 +46,7 @@ Defined in: [core/services/billing-portal.service.ts:39](https://github.com/mbat
 
 > **create**(`options`): `Promise`\<`Session`\>
 
-Defined in: [core/services/billing-portal.service.ts:49](https://github.com/mbates/stripe/blob/15e917425b05c6cb89295d7a886146a00e971266/src/core/services/billing-portal.service.ts#L49)
+Defined in: [core/services/billing-portal.service.ts:49](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/core/services/billing-portal.service.ts#L49)
 
 Create a Billing Portal session for a customer.
 

@@ -51,6 +51,7 @@
 - [createWebhookProcessor](functions/createWebhookProcessor.md)
 - [getChargeId](functions/getChargeId.md)
 - [getCustomerId](functions/getCustomerId.md)
+- [getInvoiceId](functions/getInvoiceId.md)
 - [getPaymentIntentId](functions/getPaymentIntentId.md)
 - [getSubscriptionId](functions/getSubscriptionId.md)
 - [parseAndVerifyWebhook](functions/parseAndVerifyWebhook.md)

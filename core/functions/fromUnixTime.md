@@ -8,7 +8,7 @@
 
 > **fromUnixTime**(`seconds`): `Date` \| `undefined`
 
-Defined in: [core/utils.ts:123](https://github.com/mbates/stripe/blob/15e917425b05c6cb89295d7a886146a00e971266/src/core/utils.ts#L123)
+Defined in: [core/utils.ts:123](https://github.com/mbates/stripe/blob/df8c0d46cab5828e5e46677223aaddbd83f760ad/src/core/utils.ts#L123)
 
 Convert a Unix timestamp (seconds) to a JS `Date`.
 
