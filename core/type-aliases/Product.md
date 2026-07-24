@@ -1,4 +1,4 @@
-[**@bates-solutions/stripe API Reference v1.0.0**](../../README.md)
+[**@bates-solutions/stripe API Reference v1.0.2**](../../README.md)
 
 ***
 
@@ -8,6 +8,6 @@
 
 > **Product** = `Stripe.Product`
 
-Defined in: [core/services/products.service.ts:8](https://github.com/mbates/stripe/blob/5209173c3c3431432a88ab1fd7f64106c9d10472/src/core/services/products.service.ts#L8)
+Defined in: [core/services/products.service.ts:8](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/products.service.ts#L8)
 
 A Stripe Product

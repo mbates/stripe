@@ -1,4 +1,4 @@
-[**@bates-solutions/stripe API Reference v1.0.0**](../../README.md)
+[**@bates-solutions/stripe API Reference v1.0.2**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Interface: CancelSubscriptionOptions
 
-Defined in: [core/services/subscriptions.service.ts:99](https://github.com/mbates/stripe/blob/5209173c3c3431432a88ab1fd7f64106c9d10472/src/core/services/subscriptions.service.ts#L99)
+Defined in: [core/services/subscriptions.service.ts:99](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/subscriptions.service.ts#L99)
 
 Options for cancelling a subscription
 
@@ -16,7 +16,7 @@ Options for cancelling a subscription
 
 > `optional` **atPeriodEnd?**: `boolean`
 
-Defined in: [core/services/subscriptions.service.ts:104](https://github.com/mbates/stripe/blob/5209173c3c3431432a88ab1fd7f64106c9d10472/src/core/services/subscriptions.service.ts#L104)
+Defined in: [core/services/subscriptions.service.ts:104](https://github.com/mbates/stripe/blob/dfaed1936ced38c35148bf61aab578023de18d7b/src/core/services/subscriptions.service.ts#L104)
 
 Cancel at the end of the current period instead of immediately.
 
